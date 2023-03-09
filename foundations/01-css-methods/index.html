@@ -5,10 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <!--Need to make external with link rel and href here. created a style.css file-->
+
   </head>
+
+
   <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+
+    <div>
+      <span>Style me via the external method!</span>
+    </div>
+    <!--div will be in the external style.css, the span is to connect it to the external but you can tech do strong-->
+
+    <p style="background-color: green; color: white; font-size: 18px;">
+      I would like to be styled with the internal method, please.
+    </p>
+    <!--just add background color and white text to this one internal, do not look at external-->
+
+    <button style="background-color: orange; font-size: 18px;">Inline Method</button>
+    <!--make orange and 18px size-->
   </body>
 </html>
